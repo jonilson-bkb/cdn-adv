@@ -29,4 +29,197 @@ p.preco-a-vista.price-cash {
     display: none !important;
 }
 
-/* bla blasss */
+strong.skuBestPrice {
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    font-size: 33px;
+    letter-spacing: -1px;
+}
+
+em.valor-dividido.price-installments {
+    position: relative;
+    margin-top: 14px;
+    color: #00c900;
+}
+
+.fn.productName {
+    font-weight: 500;
+    position: relative;
+    margin-top: -20px;
+}
+
+.sku-selection-adv input[type=radio] {
+    opacity: 0.0;
+    z-index: 100;
+    position: absolute;
+}
+
+label.dimension-Tamanho {
+    border: solid 1px #dd0b82;
+    min-width: 56px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 4px 0px;
+    border-radius: 2px;
+    color: #444;
+    cursor: pointer;
+}
+
+label.dimension-Tamanho:hover {
+    background: #dd0b821c;
+}
+
+.sku-picked {
+    background: #dd0b82;
+    color: #fff !important;
+    z-index: 500;
+}
+
+.sku-picked input[type=radio] {
+    opacity: 0.1;
+}
+
+.item_unavaliable {
+    background: #ececec !important;
+    border: solid 1px #c8b1b1 !important;
+    cursor: context-menu !important;
+    color: #a9a9a9 !important;
+}
+
+
+label.dimension-Cor {
+    border: solid 1px #dd0b82;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+
+.rating-produto.avaliacao0:before,
+.rating-produto.a0:before,
+.rating-demonstrativo.avaliacao0:before,
+.rating-demonstrativo.a0:before,
+.rating-wrapper .rating.avaliacao0:before,
+.rating-wrapper .rating.a0:before {
+    content: "\f006   \f006   \f006   \f006   \f006";
+    position: absolute;
+    left: 10px;
+    background: #fff;
+    top: 102px;
+    padding-top: 10px;
+    width: 83%;
+    margin-bottom: 10px;
+}
+
+.sku-selection-adv {
+    margin-top: 10px;
+}
+
+.header {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+
+/* botão comprar */
+a.buy-button.buy-button-ref {
+    color: #fff;
+    background: #444;
+    padding: 8px;
+    text-align: center;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 56%;
+    margin-left: 33%;
+}
+
+a.buy-button.buy-button-ref:hover {
+    background: #000;
+}
+
+a.shipping-value {
+    display: none;
+}
+
+.quantity {
+    display: none;
+}
+
+/* botão de adiconar mais ao carrinho e comprar */
+
+input.qtd.pull-left {
+    border: none;
+    outline: 0;
+    /*background: #ccc;*/
+    max-width: 52px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    margin-right: 40px;
+    padding: 5px 0px;
+}
+
+.bts.pull-left {
+    position: absolute;
+}
+
+button.btn.btn-mais {
+    margin-right: 39px;
+}
+
+.pull-left.box-qtd {
+    border: solid 1px #dd0b82;
+    overflow: hidden;
+}
+
+.bts .btn {
+    background: #fff;
+    padding: 3px 13px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #dd0b82;
+    outline: 0;
+    box-shadow: none;
+}
+
+button.btn.btn-menos {
+    padding: 3px 17px;
+}
+
+.bts .btn:hover{
+    background: #dd0b821c;
+}
+
+.buy-button-box {
+    margin-top: 30px;
+}
+
+/* BREADCOMBS */
+
+aside.adv-breadcombs-products ul {
+    display: flex;
+    margin-bottom: 33px;
+    margin-top: 9px;
+    border-bottom: solid 1px #dd0b82;
+    padding-bottom: 6px;
+}
+
+aside.adv-breadcombs-products ul li a {
+    text-decoration: none;
+    color: #444;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+aside.adv-breadcombs-products ul li::after {
+    content: ">";
+    margin: 0px 3px;
+    font-size: 12px;
+}
+
+li.last::after {
+    content: "" !important;
+}
