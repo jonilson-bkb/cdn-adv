@@ -1,0 +1,21 @@
+/* OCULTA MOBILE */
+
+.adv-show-mobile {
+    display: none;
+}
+
+@media(max-width:766px) {
+
+    .adv-show-mobile {
+        display: block;
+    }
+
+    .adv-show-desk {
+        display: none;
+    }
+
+}
+
+.main-icons{
+    border: solid 1px #fff !important;
+}
